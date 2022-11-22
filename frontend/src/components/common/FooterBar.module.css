@@ -1,0 +1,11 @@
+.footerBar {
+  /* margin-top: 4rem;
+  margin-bottom: 4rem; */
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  background-color: transparent;
+  color: #43B8B1;
+  text-align: center;
+
+}

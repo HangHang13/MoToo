@@ -1,0 +1,119 @@
+.myLimitOrderCard {
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.listbox{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.rowbox{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+.hrline{
+  border: #EAF0EF 0.5px solid;
+  display: flex;
+  justify-content: center;
+}
+.pr{
+  color: #929e9e;
+  font-weight: 600;
+}
+.label{
+  display: flex;
+  width: 32px;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+.title{
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  padding: 8rem 2rem 0rem 2rem;
+  /* margin: 2rem; */
+}
+.info{
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  justify-content: center;
+  font-weight: 600;
+}
+.pd{
+  position: absolute;
+  left: 5%;
+}
+
+.fix {
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 1px 2px 1px rgba(148, 148, 148, 0.25); 
+}
+
+.fixbox {
+  display: flex;
+  margin-top: 1.3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.limitctn {
+  /* background-color: white; */
+  max-width: 600px;
+  margin: auto;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.timereset {
+  font-size: 14px;
+  color: #43B8B1;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.limitbg {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(180deg, #FBF7F0 0%, #F2FFF8 100%); 
+}
+
+
+.limitList {
+  min-height: 70vh;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px -2px 4px 1px rgba(93, 93, 93, 0.08);
+  padding: 2rem 0.5rem 2rem 0.5rem;
+}
+
+.selectbtn {
+  text-align: end;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #929E9E;
+}
+
+.selectbtn:hover {
+  cursor: pointer;
+}
