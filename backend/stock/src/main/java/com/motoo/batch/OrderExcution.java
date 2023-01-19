@@ -96,24 +96,8 @@ public class OrderExcution {
                     log.info("트레이딩 타입  ",+trading.getTr_type());
 
 
-                    //accountStockId
-//                    Long accountStockId = accountStockService.getAccountStockIdByStockId(accountId, stockId);
-//                    AccountStock accountStock = accountStockService.getAccountStockByUserIdAccountStockId(userId, accountStockId);
-////
-////                    //판매 거래내역에 추가
-//                    int original = accountStock.getPrice();
-//                    Integer converted = Integer.valueOf(original);
-//
-//                    trading.setAvg(converted);
-
                     //판매예약 조회
                     if (tradingList.get(i).getTr_type() == 3) {
-
-
-                        //accountStockId 가져오기
-
-                        //문제의 그곳 ..
-
 
 
                         //주식 소유여부 분기
@@ -180,9 +164,6 @@ public class OrderExcution {
 
                                     //accountStock 객체 가져오기
                                     AccountStock accountStock = accountStockService.getAccountStockByUserIdAccountStockId(userId, accountStockId);
-
-                                    //accountStock 객체 가져오기
-//                                  AccountStock accountStock = accountStockService.getAccountStockByUserIdAccountStockId(userId, accountStockId);
 
                                     //이동평균법에 의한 새로운 가격 계산하는 로직
                                     int currentAmount = accountStock.getAmount();
